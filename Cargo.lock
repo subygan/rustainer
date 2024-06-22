@@ -57,21 +57,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustainer"
-version = "0.1.0"
-dependencies = [
- "flate2",
- "libc",
- "log",
- "nix",
- "num_enum",
- "serde",
- "serde_json",
- "tar",
- "ureq",
-]
-
-[[package]]
 name = "equivalent"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -270,6 +255,21 @@ dependencies = [
  "untrusted",
  "web-sys",
  "winapi",
+]
+
+[[package]]
+name = "rustainer"
+version = "0.1.0"
+dependencies = [
+ "flate2",
+ "libc",
+ "log",
+ "nix",
+ "num_enum",
+ "serde",
+ "serde_json",
+ "tar",
+ "ureq",
 ]
 
 [[package]]
